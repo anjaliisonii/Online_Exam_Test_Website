@@ -5,7 +5,7 @@ The Question Paper Generator application is designed to facilitate the creation 
 The "Online Quiz Application using React" is a web-based platform that allows users to participate in quizzes on various topics. The application will provide an interactive and engaging way for users to test their knowledge while presenting quiz questions in an organized and user-friendly manner.
 
 ![Homepage](https://github.com/anjaliisonii/Online_Exam_Test_Website/assets/95306164/b8327dad-f4bc-4bfd-9729-2c8770992cab)
-(https://github.com/anjaliisonii/Question_paper_generator/assets/95306164/6c05c559-697b-41a6-b603-b29565028b70)
+![Homepage](https://github.com/anjaliisonii/Question_paper_generator/assets/95306164/6c05c559-697b-41a6-b603-b29565028b70)
 
 
 
