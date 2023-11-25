@@ -22,6 +22,32 @@ function App(){
     </Router>
   );
 }
+// app.js
+const Question = require('./src/models/Question');
+const QuestionService = require('./src/services/questionService');
+const QuestionPaperGenerator = require('./src/utils/questionPaperGenerator');
+
+// Initialize services
+const questionService = new QuestionService();
+
+// Sample questions
+const question1 = new Question("What is the speed of light", "Physics", "Waves", "Easy", 5);
+// Add more questions...
+
+// Add questions to the store
+questionService.addQuestion(question1);
+// Add more questions...
+
+// Generate Question Paper
+const totalMarks = 100;
+const difficultyDistribution = {
+  "Easy": 20,
+  "Medium": 50,
+  "Hard": 30,
+};
+
+const questionPaper = QuestionPaperGenerator.generateQuestionPaper(totalMarks, difficultyDistribution);
+console.log(questionPaper);
 
 // import User from './User'
 // class App extends React.Component{
